@@ -61,7 +61,6 @@ public class main1 {
 
     static void creatLogger() {
         logger = Logger.getAnonymousLogger();
-        // logger.config(encoding = "UTF-8");;
         FileHandler fileHandler = null;
         try {
             fileHandler = new FileHandler(log);
