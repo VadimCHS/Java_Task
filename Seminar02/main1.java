@@ -32,7 +32,7 @@ import java.util.logging.Logger;
 
 public class main1 {
     static String path = "C:\\Users\\1\\Desktop\\GB\\Java_Task\\Seminar02\\readTest.json";
-    static String writeTest = "C:\\Users\\1\\Desktop\\GB\\Java_Task\\Seminar02\\writeTest.txtе";
+    static String writeTest = "C:\\Users\\1\\Desktop\\GB\\Java_Task\\Seminar02\\writeTest.txt";
     static String log = "C:\\Users\\1\\Desktop\\GB\\Java_Task\\Seminar02\\log.txt";
 
     static Logger logger;

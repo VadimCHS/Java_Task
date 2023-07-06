@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2023-07-06T15:47:23.321092600Z</date>
-  <millis>1688658443321</millis>
-  <nanos>92600</nanos>
+  <date>2023-07-06T15:51:41.826907100Z</date>
+  <millis>1688658701826</millis>
+  <nanos>907100</nanos>
   <sequence>0</sequence>
   <level>INFO</level>
   <class>Seminar02.main1</class>
@@ -13,9 +13,9 @@
   <message>Файл успешно записан.</message>
 </record>
 <record>
-  <date>2023-07-06T15:47:23.399046200Z</date>
-  <millis>1688658443399</millis>
-  <nanos>46200</nanos>
+  <date>2023-07-06T15:51:41.911854600Z</date>
+  <millis>1688658701911</millis>
+  <nanos>854600</nanos>
   <sequence>1</sequence>
   <level>INFO</level>
   <class>Seminar02.main1</class>
@@ -24,9 +24,9 @@
   <message>Файл успешно прочитан.</message>
 </record>
 <record>
-  <date>2023-07-06T15:47:23.405041900Z</date>
-  <millis>1688658443405</millis>
-  <nanos>41900</nanos>
+  <date>2023-07-06T15:51:41.917850100Z</date>
+  <millis>1688658701917</millis>
+  <nanos>850100</nanos>
   <sequence>2</sequence>
   <level>INFO</level>
   <class>Seminar02.main1</class>
@@ -35,9 +35,9 @@
   <message>Не удалось прочитать из файла.</message>
 </record>
 <record>
-  <date>2023-07-06T15:47:23.413037Z</date>
-  <millis>1688658443413</millis>
-  <nanos>37000</nanos>
+  <date>2023-07-06T15:51:41.928843700Z</date>
+  <millis>1688658701928</millis>
+  <nanos>843700</nanos>
   <sequence>3</sequence>
   <level>INFO</level>
   <class>Seminar02.main1</class>
