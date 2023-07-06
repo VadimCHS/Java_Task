@@ -25,7 +25,7 @@ public class task3 {
             isScanner.next();
             result = getNumber(massage);
         }
-        isScanner.close();
+        // isScanner.close();
         return result;
     }
 
@@ -40,30 +40,30 @@ public class task3 {
             isScanner.next();
             result = getOperation(massage);
         }
-        isScanner.close();
+        // isScanner.close();
         return result;
     }
 
     public static double calculetade(double[] numbers, char simbol) {
-        double result = 0;
+        double result = numbers[0];
         switch (simbol) {
             case '+':
-                for (int i = 0; i < numbers.length; i++) {
+                for (int i = 1; i < numbers.length; i++) {
                     result += numbers[i];
                 }
                 return result;
             case '-':
-                for (int i = 0; i < numbers.length; i++) {
+                for (int i = 1; i < numbers.length; i++) {
                     result -= numbers[i];
                 }
                 return result;
             case '*':
-                for (int i = 0; i < numbers.length; i++) {
+                for (int i = 1; i < numbers.length; i++) {
                     result *= numbers[i];
                 }
                 return result;
             case '/':
-                for (int i = 0; i < numbers.length; i++) {
+                for (int i = 1; i < numbers.length; i++) {
                     result /= numbers[i];
                 }
                 return result;
