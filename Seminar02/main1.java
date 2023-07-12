@@ -54,14 +54,12 @@ public class main1 {
     }    
 
     static void closeLogger() {
-        for (Handler handler : logger.getHandlers()) {
+        for (Handler handler : logger.getHandlers())
             handler.close();
-        }
     }
 
     static void creatLogger() {
         logger = Logger.getAnonymousLogger();
-        // logger.config(encoding = "UTF-8");;
         FileHandler fileHandler = null;
         try {
             fileHandler = new FileHandler(log);
