@@ -14,14 +14,15 @@ import java.util.Random;
 
 public class Task {
     public static void main(String[] args) {
-        LinkedList<Integer> list = new LinkedList<>();      // Создание списка чисел
+        LinkedList<Integer> list = new LinkedList<>();                    // Создание списка чисел
         for (int i = 0; i < 5; i++)
-            list.add(new Random().nextInt(10));       // Заполнение списка
-        System.out.println(list);                           // Ввыод начального списка
-        System.out.println(reverseList(list));              // Вывод развернутого списка
-        System.out.println(list);                           // Проверка начального списка
+            list.add(new Random().nextInt(10));                     // Заполнение списка
+        System.out.println("Начальный список: " + list);                  // Ввыод начального списка
+        System.out.println("Развернутый список: " + reverseList(list));   // Вывод развернутого списка
+        System.out.println("Начальный список: " + list);                  // Проверка начального списка
 
-        System.out.println(sumList(list));                  // Сумма элементов списка
+        System.out.println("Сумма элементов: " + sumList(list));          // Сумма элементов списка
+        System.out.println("Начальный список: " + list);                  // Проверка начального списка   
 
         MyQueueList<Integer> list3 = new MyQueueList<>();   // Создание очереди
         list3.enqueue(1);                           // Добавление в конец очереди
