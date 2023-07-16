@@ -24,15 +24,15 @@ public class Task {
         System.out.println("Сумма элементов: " + sumList(list));          // Сумма элементов списка
         System.out.println("Начальный список: " + list);                  // Проверка начального списка   
 
-        MyQueueList<Integer> list3 = new MyQueueList<>();   // Создание очереди
-        list3.enqueue(1);                           // Добавление в конец очереди
-        list3.enqueue(2);                           // Добавление в конец очереди
-        list3.enqueue(3);                           // Добавление в конец очереди
-        System.out.println(list3.dequeue());                // Вывод первого элемента и удаление его
-        list3.enqueue(4);                           // Добавление в конец очереди
+        MyQueueList<Integer> list3 = new MyQueueList<>();                 // Создание очереди
+        list3.enqueue(1);                                         // Добавление в конец очереди
+        list3.enqueue(2);                                         // Добавление в конец очереди
+        list3.enqueue(3);                                         // Добавление в конец очереди
+        System.out.println("Вывод с удалением: " + list3.dequeue());      // Вывод первого элемента и удаление его
+        list3.enqueue(4);                                         // Добавление в конец очереди
         while(list3.first() != null) {
-            System.out.println(list3.first());              // Вывод первого элемента без удаления
-            System.out.println(list3.dequeue());            // Вывод первого элемента и удаление его
+            System.out.println("Вывод: " + list3.first());                // Вывод первого элемента без удаления
+            System.out.println("Вывод с удалением: " + list3.dequeue());  // Вывод первого элемента и удаление его
         }
     }
 
