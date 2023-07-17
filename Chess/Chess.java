@@ -3,7 +3,12 @@ package Chess;
 public class Chess {
    
     public char[][] ranking(char[][] boardChees) {
-        return ranking(boardChees, checkCountBlackWhite(boardChees));
+        ranking(boardChees, checkCountBlackWhite(boardChees));
+        if (checkCountBlackWhite(boardChees) > 0){
+            System.out.println("Решения нет");
+            return null;
+        }
+        return boardChees;
     }
 
     private char[][] ranking(char[][] boardChees, int count) {
@@ -12,7 +17,7 @@ public class Chess {
             for (int j = 0; j < boardChees[1].length; j++) {
                 if (boardChees[i][j] == '.') {
                     boolean check = check(boardChees, i, j);
-                    // System.out.println("-------------------------------");
+                    // System.out.println("--------------------------");
                     // print(boardChees);
                     if (check) {
                         boardChees[i][j] = shape;
